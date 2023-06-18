@@ -4,38 +4,28 @@ body {
 
 .container {
     display: flex;
-    padding: 3% 17%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
-}
-
-@media (max-width: 495px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        padding: 3% 17%;
-    
-    }
 }
 
 .box-1 {
     width: 200px;
     background-color: hsl(31, 77%, 52%);
     padding: 5% ;
-    border-radius: 5px;
 }
 
 .box-2 {
     width: 200px;
     background-color: hsl(184, 100%, 22%);
     padding: 5% ;
-    border-radius: 5px;
 }
 
 .box-3 {
     width: 200px;
     background-color: hsl(179, 100%, 13%);
     padding: 5% ;
-    border-radius: 5px;
 }
 
 h1 {
@@ -63,4 +53,13 @@ p {
 .btn:hover {
     border: 1px solid hsl(0, 22%, 83%);
     color:  hsla(0, 0%, 100%, 0.75);;
+}
+
+@media (max-width: 495px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 3% 17%;
+    
+    }
 }

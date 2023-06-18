@@ -59,17 +59,18 @@ p {
     .container {
         display: flex;
         flex-direction: column;
+        height: 100vh;
     }
 
     h2 {
-        margin-top: 30px;
+        margin-top: 10px;
     }
     
     p {
-        margin-top: 30px;
+        margin-top: 10px;
     }
     
     .btn {
-        margin-top: 30px;
+        margin-top: 10px;
     }
 }
